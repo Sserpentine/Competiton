@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+body{
+    background: linear-gradient(black,rgb(0, 48, 0), rgb(0, 87, 0), rgb(0, 121, 0), rgb(0, 151, 0), rgb(0, 179, 0), rgb(0, 206, 0), rgb(5, 255, 5));
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+#nav-bar{
+    height: 50px;
+    background-color: #D6F4FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+#nav-bar h2{
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    cursor: pointer;
+}
+.header{
+    background-image: url("/Assets/Farming\ Competition.jpg");
+    height: 500px;
+    background-size: 1899px;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Amatic SC', cursive;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+img{
+    display: flex;
+    margin: 0px auto;
+    height: 600px;
+}
+#ending{
+    text-align: center;
+    color: black;
+    font-size: 30px ;
+    font-family: 'Amatic SC', cursive;
+}
